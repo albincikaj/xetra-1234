@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+boto3 = "*"
+awscli = "*"
+pandas = "*"
+jupyter = "*"
+jupyterlab = "*"
+pyarrow = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
